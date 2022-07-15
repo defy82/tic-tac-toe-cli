@@ -1,18 +1,14 @@
 package com.scaler.tictactoe;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@AllArgsConstructor
+@Getter
+@Setter
 public class Player {
+
     private String character;
 
-    public String getCharacter() {
-        return character;
-    }
-
-    public void setCharacter(String character) {
-        this.character = character;
-    }
-
-
-    public Player(String character) {
-        this.character = character;
-    }
 }
